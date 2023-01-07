@@ -20,4 +20,5 @@ from django.contrib import admin
 urlpatterns = [
     path(r'admin/', admin.site.urls),
     path(r'hello/', include('MyWebPage1.urls')),
+    path(r'page2/', include('MyWebPage2.urls')),
 ]
